@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/styles.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="column">
+            <h1>Log:</h1>
+            <textarea data-log class="log-content"></textarea>
+        </div>
+        <div class="column">
+            <h1>Add message to your user:</h1>
+
+            <input type="text" data-name placeholder="Event name" value="Namespace.event"/><br/>
+            <textarea placeholder="Data (can be JSON)" data-message>{1: 2}</textarea><br/>
+            <input type="button" value="Send" data-send/>
+        </div>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
